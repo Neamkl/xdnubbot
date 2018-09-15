@@ -1,1 +1,1 @@
-# xdnubbot
+# bot
