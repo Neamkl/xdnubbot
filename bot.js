@@ -33,7 +33,7 @@ client.reload = command => {
     } catch (e){
       reject(e);
     }
-  });
+  );
 };
 
 client.load = command => {
