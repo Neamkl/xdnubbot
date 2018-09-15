@@ -5,10 +5,6 @@ require('./util/eventLoader')(client);
 
 var prefix = ayarlar.prefix;
 
-const log = message => {
-  console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] ${message}`);
-};
-
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
   if (err) console.error(err);
